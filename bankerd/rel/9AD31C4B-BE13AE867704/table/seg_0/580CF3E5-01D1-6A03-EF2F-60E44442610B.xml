@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="580CF3E5-01D1-6A03-EF2F-60E44442610B" name="bank_transaction">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:22:53 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_no" id="E1E4EE76-E4D9-71D2-49C7-0D39F4CAEE1E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:24:15 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_a_no_1" id="4AEA065D-F83B-E3C5-5B23-434B75D65A27">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:06:00 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C84B945C-C8C9-9C19-C5EB-5B30D0299A4B" referredColumn="9062D234-B743-CBC5-D1E9-7A5F8BE8D8FB"/>
+</associations>
+</Column>
+<Column name="t__dist" id="2ABF2AF1-3F0B-F4B5-BA48-7C819CA24431">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:24:15 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_amount" id="5542B2B2-958B-0E0C-2595-83BA8C6BE070">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:24:15 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_datetime" id="45CF4841-3F0B-3C3C-4B5D-2693DB56E0AE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:24:15 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="604C5019-DA1A-04F7-22C7-7E4905F44F2A" name="bank_transaction_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 02:36:25 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E4EE76-E4D9-71D2-49C7-0D39F4CAEE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58FC8FE0-9BDE-0599-871F-0A8A80121D56" name="bank_transaction__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:06:10 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="27972EDC-156A-0C67-4E34-2E0132A4C567" name="bank_transaction_bank_account_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 03:06:00 UTC</createdTime>
+<ownerDesignName>bankerd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEA065D-F83B-E3C5-5B23-434B75D65A27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10987045-F0C8-73BF-FB7B-F130F9AEA6C9" name="department">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:06:27 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dep_no" id="F2AD8622-7A44-565A-02CD-A7F9C6F45149">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:08:03 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dep_name" id="A32CB9C1-CDFF-C732-7FEF-83D507D2D9C8">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:08:03 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dep_manager" id="5E95798A-5AED-23AC-BB34-6EB84090207D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:08:03 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dep_tel" id="A47B536E-4731-3D88-F909-52B02803DBB7">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:08:03 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46EB0345-44BE-587E-62B2-855FBAC373BE" name="department_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:08:03 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2AD8622-7A44-565A-02CD-A7F9C6F45149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

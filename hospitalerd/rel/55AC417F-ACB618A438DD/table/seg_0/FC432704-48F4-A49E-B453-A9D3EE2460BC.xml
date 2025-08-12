@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC432704-48F4-A49E-B453-A9D3EE2460BC" name="treatment">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:17:15 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="treat_no" id="2A002DF9-C5DA-3CA1-E553-DF277574C2D1">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:18:39 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_id" id="2CEA9E9F-52FA-2535-56A7-CDBD513B1125">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:59 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59539E01-F34E-3AAA-BE9D-4099ECD37C3D" referredColumn="153E8A58-559B-E59F-D4C8-0154BF34A900"/>
+</associations>
+</Column>
+<Column name="pat_id" id="402CF75F-15F7-6B81-44A2-05644C7229C3">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:25:16 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1376286-F66F-E727-E33C-6145EC39D3C2" referredColumn="45E96AEB-7CFA-2281-9669-1D1E30B22140"/>
+</associations>
+</Column>
+<Column name="treat_desc" id="2C8C48A3-956B-D117-DD0A-4D5B5F6FD5B4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:18:39 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="treat_datetime" id="C36EE0D7-2598-1889-5472-453096697240">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:18:39 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C906FEB9-D606-A3F0-2CDF-497258F3847F" name="treatment_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:18:39 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A002DF9-C5DA-3CA1-E553-DF277574C2D1"/>
+<colUsage columnID="402CF75F-15F7-6B81-44A2-05644C7229C3"/>
+<colUsage columnID="2CEA9E9F-52FA-2535-56A7-CDBD513B1125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75733561-ECE7-F03F-29F5-5585C8ECA36D" name="treatment_doctor_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:22:59 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CEA9E9F-52FA-2535-56A7-CDBD513B1125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDB8C44D-FD76-449B-1DE2-C8626A11122A" name="treatment_patient_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:25:16 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402CF75F-15F7-6B81-44A2-05644C7229C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

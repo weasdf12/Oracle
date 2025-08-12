@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5081174-A808-5D88-C8D1-EB863D411190" name="doctor">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:09:03 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="doc_id" id="153E8A58-559B-E59F-D4C8-0154BF34A900">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dep_no" id="5337AC13-01B0-BEA7-6122-14CB62CC9E5B">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:21:11 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58892821-FF6F-AF9A-DEED-007DDBED9BDB" referredColumn="F2AD8622-7A44-565A-02CD-A7F9C6F45149"/>
+</associations>
+</Column>
+<Column name="doc_name" id="7A83E0ED-FEB5-0659-A741-252713DCFF9D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_birth" id="4E57F2EF-F41C-DFB5-25C5-F88332741642">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_gen" id="E635C7BE-D891-3004-006A-5EBF29A5A804">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_pos" id="16F25F7A-C169-2513-2ED9-7D378255ACB4">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_phone" id="3B842E82-7E89-AAE6-66B2-C7A04E7389B5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_email" id="795AB487-F2EC-2692-DBF4-DA8C720303AB">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C6B6AC0-C557-EFE2-9588-F222621E4355" name="doctor_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:12:04 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="153E8A58-559B-E59F-D4C8-0154BF34A900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8967F884-B461-5910-3373-0132259175A8" name="doctor_department_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-12 02:21:11 UTC</createdTime>
+<ownerDesignName>hospitalerd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5337AC13-01B0-BEA7-6122-14CB62CC9E5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
