@@ -1,7 +1,7 @@
 create table department (                      --학과
     dep_no  number ,                           --학과번호
     college varchar(20),                       --단과대학
-    dep     varchar(20),                       --학과
+    dep_name   varchar(20),                       --학과
     dep_king varchar(20),                      --학과장
     dep_hp  char(12)                            --학과 연락처    
     );
@@ -44,6 +44,7 @@ CREATE TABLE course (
     cs_seq    NUMBER(3) NOT NULL
 );
 ALTER TABLE professor MODIFY dep_no NUMBER;
+
 ALTER TABLE student ADD CONSTRAINT student_pk PRIMARY KEY ( std_no );
 
 CREATE SEQUENCE student_std_seq_seq START WITH 1 MAXVALUE 9999 NOCACHE ORDER;
