@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="수행평가dmd" id="309130F1-009A-78C8-98C6-1A9027947141" version="3.5">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 00:07:44 UTC</createdTime>
+<ownerDesignName>수행평가dmd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>309130F1-009A-78C8-98C6-1A9027947141</designId>
+</OSDM_Design>

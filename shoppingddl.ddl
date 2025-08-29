@@ -317,7 +317,7 @@ where prodno is null;
 
 --9
 select * --아몰랑
-from ordersitem;
+from ;
 
 --10
 select

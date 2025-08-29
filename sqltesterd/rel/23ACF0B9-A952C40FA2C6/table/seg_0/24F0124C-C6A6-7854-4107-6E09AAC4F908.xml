@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24F0124C-C6A6-7854-4107-6E09AAC4F908" name="customer">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:52:59 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_jumin" id="52D75D90-E5C4-1641-D232-1828C741B436">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="06D47525-83C3-E4D8-2A60-1BA2967B92CF">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="8ADDC4FD-6FE0-4CC0-271F-C7D668DC443F">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth" id="0240DFAE-D83A-966A-D268-51060A3D0FCD">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="0D3FBB02-3415-6627-6DAD-824541A61494">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="C059B1A3-A823-8AE6-1FD6-A1E0AED1D9EA">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job" id="14C67824-9F71-1AA3-A3B7-F1CD2D8FF0AE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D18A97BF-CA31-7611-AA8A-13DF45CCB23F" name="customer_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:55:02 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52D75D90-E5C4-1641-D232-1828C741B436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A73B948-937F-9A45-CEF5-E6C3729F0602" name="email__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 02:04:16 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D3FBB02-3415-6627-6DAD-824541A61494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79467954-CA23-136A-2DFB-B981C6C607F5" name="hp__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 02:04:16 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C059B1A3-A823-8AE6-1FD6-A1E0AED1D9EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8078B1F-5AAC-3414-5BA8-3EE979590EC0" name="account">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:56:56 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="acc_id" id="404D237B-A47C-30E8-E5C9-B5E3BBE65EE6">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:59:07 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_jumin" id="103F35D1-E948-3456-64D1-769B4A74D101">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 02:01:42 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="340D6143-433D-50B9-5BC5-844A548D2B1F" referredColumn="52D75D90-E5C4-1641-D232-1828C741B436"/>
+</associations>
+</Column>
+<Column name="acc_type" id="5658E8AA-10CD-9E6E-1856-EEA161E7A73D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:59:07 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acc_balance" id="0E57398D-297D-4637-7CC8-DAB7B2C3E76D">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:59:07 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acc_card" id="10160371-79DF-277E-5311-401553D8C443">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:59:07 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acc_register_date" id="BE790951-DCCD-31D8-6C68-B81A6AF17F28">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:59:07 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41127C0D-AE0D-D219-1211-41ED644369C2" name="account_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 01:59:07 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404D237B-A47C-30E8-E5C9-B5E3BBE65EE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2622EE44-5CCC-7EFD-2B16-608BA4F57CA7" name="account_customer_FK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-13 02:01:42 UTC</createdTime>
+<ownerDesignName>sqltesterd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="103F35D1-E948-3456-64D1-769B4A74D101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

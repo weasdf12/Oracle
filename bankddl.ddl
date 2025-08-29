@@ -55,14 +55,12 @@ ALTER TABLE bank_transaction
 DELETE FROM bank_account;
 DELETE FROM bank_customer;
 
--- 고객 데이터 삽입
 INSERT INTO bank_customer VALUES ('730423-1000001', '김유신', 1, '010-1234-1001', '경남 김해시');
 INSERT INTO bank_customer VALUES ('730423-1000002', '김춘추', 1, '010-1234-1002', '경남 경주시');
 INSERT INTO bank_customer VALUES ('750423-1000003', '장보고', 1, '010-1234-1003', '전남 완도군');
 INSERT INTO bank_customer VALUES ('102-12-51094', '(주)정보산업', 2, '051-500-1004', '부산시 부산진구');
 INSERT INTO bank_customer VALUES ('930423-1000005', '이순신', 1, '010-1234-1005', '서울 종로구');
 
--- 계좌 데이터 삽입
 INSERT INTO bank_account VALUES ('101-11-1001', 'S1', '자유저축예금', '730423-1000001', 1550000, TO_DATE('2011-04-11', 'YYYY-MM-DD'));
 INSERT INTO bank_account VALUES ('101-11-1002', 'S1', '자유저축예금', '930423-1000005', 260000, TO_DATE('2011-05-12', 'YYYY-MM-DD'));
 INSERT INTO bank_account VALUES ('101-11-1003', 'S1', '자유저축예금', '750423-1000003', 75000, TO_DATE('2011-06-13', 'YYYY-MM-DD'));
